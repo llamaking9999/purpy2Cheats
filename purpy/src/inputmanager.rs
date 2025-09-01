@@ -25,6 +25,7 @@ enum KeyboardKey {
     Down,
     Left,
     Right,
+    N
 }
 
 impl KeyboardKey {
@@ -43,6 +44,7 @@ impl KeyboardKey {
             Keycode::Down => KeyboardKey::Down,
             Keycode::Left => KeyboardKey::Left,
             Keycode::Right => KeyboardKey::Right,
+            Keycode::N => KeyboardKey::N
             _ => return None,
         })
     }
@@ -62,6 +64,7 @@ impl KeyboardKey {
             KeyCode::ArrowDown => KeyboardKey::Down,
             KeyCode::ArrowLeft => KeyboardKey::Left,
             KeyCode::ArrowRight => KeyboardKey::Right,
+            KeyCode::N => KeyboardKey::N
             _ => return None,
         })
     }
