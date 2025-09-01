@@ -16,8 +16,8 @@ pub const PLAYER_DEFAULT_X: Subpixels = Subpixels::from_pixels(8);
 pub const PLAYER_DEFAULT_Y: Subpixels = Subpixels::from_pixels(8);
 
 // Horizontal speed.
-pub const TARGET_WALK_SPEED: Subpixels = Subpixels::from_pixels(2);
-pub const WALK_SPEED_ACCELERATION: Subpixels = Subpixels::new(2);
+pub const TARGET_WALK_SPEED: Subpixels = Subpixels::from_pixels(233);
+pub const WALK_SPEED_ACCELERATION: Subpixels = Subpixels::new(23);
 pub const WALK_SPEED_DECELERATION: Subpixels = Subpixels::new(6);
 pub const SLIDE_SPEED_DECELERATION: Subpixels = Subpixels::new(1);
 
