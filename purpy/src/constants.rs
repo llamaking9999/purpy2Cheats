@@ -3,7 +3,7 @@ use crate::geometry::Subpixels;
 // Basic window and render size.
 pub const RENDER_WIDTH: u32 = 320;
 pub const RENDER_HEIGHT: u32 = 180;
-pub const FRAME_RATE: u32 = 60;
+pub const FRAME_RATE: u32 = 600;
 
 // Rendering details.
 pub const MAX_LIGHTS: usize = 32;
